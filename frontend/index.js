@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
 // main app
-import Messenger from './Components/Messenger'
+import Messenger from './Components/messenger'
 
 import {ApolloProvider} from 'react-apollo'
 

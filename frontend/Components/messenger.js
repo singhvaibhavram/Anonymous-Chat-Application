@@ -19,8 +19,8 @@ import gql from 'graphql-tag'
 
 import AppBar from 'material-ui/AppBar';
 
-import ApolloMessages from './Messages'
-import ApolloMessageSender from './MessageSender'
+import ApolloMessages from './messages'
+import ApolloMessageSender from './messageSender'
 
 let l = console.log
 
@@ -36,7 +36,7 @@ class Messenger extends Component {
     return(
     	<div>
 	    	<AppBar
-	          title="Apollo + GraphQL Chat"
+	          title="Anonymous Chat App"
 	          iconClassNameRight="muidocs-icon-navigation-expand-more"
 	          onLeftIconButtonClick={ _ => this.setState({drawer: !drawer})}
 	        />
