@@ -1,7 +1,7 @@
 {
-  "name": "graphql-chat-tutorial",
+  "name": "anonymous-chat",
   "version": "1.0.0",
-  "description": "Base project to implement graphql and apollo towards the development of a very simple chat application",
+  "description": "very simple chat application",
   "main": "index.js",
   "scripts": {
     "client:dev": "webpack-dev-server --config ./webpack/webpack.dev.config.js",
